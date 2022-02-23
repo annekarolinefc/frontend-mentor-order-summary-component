@@ -114,6 +114,9 @@ a{
     font-size: 14px;
     font-family: 'Red Hat Display', sans-serif; /*500, 700, 900*/
 }
+.change:hover{
+    text-decoration: none;
+}
 .buttons{
     display: flex;
     flex-direction: column;
@@ -131,6 +134,9 @@ button{
     font-weight: 700;
     font-family: 'Red Hat Display', sans-serif; /*500, 700, 900*/
 }
+button:hover{
+    background-color: var(--pale-blue);
+}
 
 .cancel{
     margin-top: 20px;
@@ -138,6 +144,9 @@ button{
     color: var(--desaturated-blue);
     text-decoration: none;
     font-family: 'Red Hat Display', sans-serif; /*500, 700, 900*/
+}
+.cancel:hover{
+    color: var(--dark-blue);
 }
 
 /*Responsividade para DESKTOP*/
